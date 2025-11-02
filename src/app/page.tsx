@@ -64,7 +64,7 @@ export default function HeroSection() {
           <div className=" flex flex-col md:flex-row items-center gap-8 mb-12">
             <div className="w-70 h-70 rounded-xl overflow-hidden shadow-lg bg-[#33a8de] ">
               <img
-                src="/public/picture/profile/profile_1.jpg"
+                src="/picture/profile/profile_1.jpg"
                 width={148}
                 height={144}
                 alt="Profile"
