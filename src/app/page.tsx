@@ -8,7 +8,7 @@ const backgroundImages = [
   "/picture/project_1/project_2.jpg",
   "/picture/IMG_2.jpg",
 ];
-
+//hello
 export default function HeroSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
