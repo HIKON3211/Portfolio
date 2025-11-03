@@ -1,12 +1,13 @@
 "use client";
+import CommandsProject from "./components/commands_project";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const backgroundImages = [
-  "/picture/project_2/project_1.jpg",
-  "/picture/project_1/project_2.jpg",
-  "/picture/IMG_2.jpg",
+  "/picture/project/project_2/project_1.jpg",
+  "/picture/project/project_1/project_2.jpg",
+  "/picture/project/project_3/project_1.jpg",
 ];
 //hello
 export default function HeroSection() {
@@ -64,7 +65,7 @@ export default function HeroSection() {
           <div className=" flex flex-col md:flex-row items-center gap-8 mb-12">
             <div className="w-70 h-70 rounded-xl overflow-hidden shadow-lg bg-[#33a8de] ">
               <img
-                src="/picture/profile_1.jpg"
+                src="/picture/profile/profile_1.jpg"
                 width={148}
                 height={144}
                 alt="Profile"
@@ -404,67 +405,8 @@ export default function HeroSection() {
           CERTIFICATE AND MYPROJECT
         </h2>
         <div className="w-10 h-1 bg-red-600 mx-auto mt-2 mb-10"></div>
-
-        <div className="flex flex-col gap-5 px-6 max-w-6xl mx-auto">
-          {[
-            {
-              title: "Budget Director",
-              company: "@Wix.com",
-              desc: "This is a description of your work experience. Concisely describe your previous position in a way that's easy for readers to scan quickly.",
-              image: "/picture/IMG_2.jpg",
-              link: "/project_sec/project_1",
-            },
-            {
-              title: "Business Administration",
-              company: "@BizzNizz.net",
-              years: "2035 - 2035",
-              desc: "This is a description of your work experience. Concisely describe your previous position in a way that's easy for readers to scan quickly.",
-              image: "/picture/IMG_2.jpg",
-              link: "/projects/business-admin",
-            },
-            {
-              title: "Finance Director",
-              company: "@Computers & More LTD.",
-              years: "2035 - 2035",
-              desc: "This is a description of your work experience. Concisely describe your previous position in a way that's easy for readers to scan quickly.",
-              image: "/picture/IMG_2.jpg",
-              link: "/projects/finance-director",
-            },
-          ].map((project, index) => (
-            <a
-              key={index}
-              href={project.link}
-              className="bg-white rounded-xl shadow-lg p-6 transition-transform duration-300 hover:scale-105 hover:shadow-2xl group text-left"
-            >
-              <div className="flex flex-col md:flex-row items-center gap-6">
-                {/* รูปภาพ */}
-                <div className="w-full md:w-1/3 flex justify-center">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-80 h-60 object-cover rounded-lg shadow-md"
-                  />
-                </div>
-
-                {/* รายละเอียดโปรเจกต์ */}
-                <div className="w-full md:w-2/3">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    {project.title}
-                  </h3>
-                  <p className="text-sm text-gray-500 mb-1">
-                    {project.company}
-                  </p>
-                  <p className="text-sm text-gray-400 mb-3">{project.years}</p>
-                  <p className="text-gray-700 mb-4">{project.desc}</p>
-
-                  {/* ปุ่มอ่านเพิ่มเติม */}
-                  <span className="text-sm text-red-500 underline group-hover:text-red-700 transition duration-300">
-                    อ่านเพิ่มเติม →
-                  </span>
-                </div>
-              </div>
-            </a>
-          ))}
+        <div>
+          <CommandsProject />
         </div>
         <div className="flex justify-center mt-8 mb-20">
           <Link
