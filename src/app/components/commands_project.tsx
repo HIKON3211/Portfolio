@@ -13,10 +13,10 @@ interface Project {
 const initialProjects: Project[] = [
   {
     id: 1,
-    title: "ระบบจัดการร้านอาหาร",
+    title: "การแข่งขัน Coding War",
     description: "แอปสำหรับจัดการเมนูและออเดอร์ฟกฟหกฟหกฟหกฟหกฟหกฟหก",
     imageUrl: "/picture/project/project_1/project_1.jpg",
-    tags: ["React", "Firebase", "POS"],
+    tags: ["React", "POS"],
   },
   {
     id: 2,
@@ -27,8 +27,8 @@ const initialProjects: Project[] = [
   },
   {
     id: 3,
-    title: "ระบบจองห้องประชุม",
-    description: "จองห้องประชุมผ่านเว็บ",
+    title: "1",
+    description: "3",
     imageUrl: "/images/booking.jpg",
     tags: ["Node.js", "MongoDB", "Booking"],
   },
@@ -52,14 +52,14 @@ const CommandsProject = () => {
   });
 
   return (
-    <div className="max-w-5xl mx-auto p-6">
+    <div className="max-w-5xl mx-auto p-6 ">
       {/* 🔍 Search */}
       <input
         type="text"
         placeholder="ค้นหาโปรเจกต์..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="border p-2 w-full mb-4 rounded"
+        className="border p-2 w-full mb-4 rounded shadow-xl "
       />
 
       {/* 🏷️ Tag Filter */}
@@ -68,8 +68,8 @@ const CommandsProject = () => {
           onClick={() => setSelectedTag(null)}
           className={`px-3 py-1 rounded ${
             selectedTag === null
-              ? "bg-blue-600 text-white"
-              : "bg-gray-200 text-gray-800"
+              ? "bg-white text-black shadow-xl"
+              : "bg-gray-200 text-gray-800 shadow-l"
           }`}
         >
           ทั้งหมด
@@ -80,8 +80,8 @@ const CommandsProject = () => {
             onClick={() => setSelectedTag(tag)}
             className={`px-3 py-1 rounded ${
               selectedTag === tag
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-800"
+                ? "bg-white text-black shadow-xl"
+                : "bg-gray-200 text-gray-800 shadow-l"
             }`}
           >
             {tag}
@@ -94,7 +94,7 @@ const CommandsProject = () => {
         {filteredProjects.map((project) => (
           <div
             key={project.id}
-            className="border rounded-lg shadow overflow-hidden flex flex-col"
+            className="rounded-lg shadow-2xl overflow-hidden flex flex-col"
           >
             <img
               src={project.imageUrl}
@@ -108,7 +108,7 @@ const CommandsProject = () => {
                 {project.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm"
+                    className="bg-blue-100 text-[#33a8de] px-2 py-1 rounded text-sm"
                   >
                     {tag}
                   </span>

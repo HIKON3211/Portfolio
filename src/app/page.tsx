@@ -325,7 +325,6 @@ export default function HeroSection() {
                       color: "#00C300",
                       link: undefined,
                     },
-
                   ].map((skill, index) => {
                     // กำหนดคลาสที่ใช้ร่วมกัน
                     const commonClasses =
@@ -397,10 +396,7 @@ export default function HeroSection() {
       </section>
 
       {/* Experience Section */}
-      <section
-        id="about"
-        className="pt-28 pb-20 bg-gray-50 text-center "
-      >
+      <section id="about" className="pt-28 pb-20 bg-gray-50 text-center ">
         <h2 className="text-2xl font-bold tracking-wide">
           CERTIFICATE AND MYPROJECT
         </h2>
@@ -408,14 +404,14 @@ export default function HeroSection() {
         <div>
           <CommandsProject />
         </div>
-        <div className="flex justify-center mt-8 mb-20">
+        {/* <div className="flex justify-center mt-8 mb-20">
           <Link
             href="/media"
             id="bottone5"
           >
             ดูทั้งหมด
           </Link>
-        </div>
+        </div> */}
       </section>
     </div>
   );
