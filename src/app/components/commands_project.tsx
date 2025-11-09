@@ -16,28 +16,11 @@ const initialProjects: Project[] = [
     id: 1,
     title: 'การแข่งขัน Coding War',
     description: 'แอปสำหรับจัดการเมนูและออเดอร์ฟกฟหกฟหกฟหกฟหกฟหกฟหก',
-    imageUrl: '/picture/project/project_1/project_1.jpg',
+    imageUrl: '/picture/project/project_1/project_2.jpg',
     tags: ['React', 'POS'],
     link: '/project_sec/project_1', // ✅ ลิงก์ที่กำหนดเอง
-  },
-  {
-    id: 2,
-    title: '2',
-    description: '2',
-    imageUrl: '/images/portfolio.jpg',
-    tags: ['Next.js', 'Tailwind', 'Portfolio'],
-    link: '',
-  },
-  {
-    id: 3,
-    title: '3',
-    description: '3',
-    imageUrl: '/images/booking.jpg',
-    tags: ['Node.js', 'MongoDB', 'Booking'],
-    link: '/#profile',
-  },
-];
-
+  }
+]
 const CommandsProject = () => {
   const [projects] = useState<Project[]>(initialProjects);
   const [search, setSearch] = useState('');
