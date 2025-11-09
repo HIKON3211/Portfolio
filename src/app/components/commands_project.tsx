@@ -1,6 +1,6 @@
-// components/commands_project.tsx
-"use client";
-import { useState } from "react";
+'use client';
+import { useState } from 'react';
+import Link from 'next/link';
 
 interface Project {
   id: number;
@@ -8,35 +8,39 @@ interface Project {
   description: string;
   imageUrl: string;
   tags: string[];
+  link: string; // ✅ เพิ่มลิงก์ที่ต้องการ
 }
 
 const initialProjects: Project[] = [
   {
     id: 1,
-    title: "การแข่งขัน Coding War",
-    description: "แอปสำหรับจัดการเมนูและออเดอร์ฟกฟหกฟหกฟหกฟหกฟหกฟหก",
-    imageUrl: "/picture/project/project_1/project_1.jpg",
-    tags: ["React", "POS"],
+    title: 'การแข่งขัน Coding War',
+    description: 'แอปสำหรับจัดการเมนูและออเดอร์ฟกฟหกฟหกฟหกฟหกฟหกฟหก',
+    imageUrl: '/picture/project/project_1/project_1.jpg',
+    tags: ['React', 'POS'],
+    link: '/project_sec/project_1', // ✅ ลิงก์ที่กำหนดเอง
   },
   {
     id: 2,
-    title: "เว็บพอร์ตโฟลิโอส่วนตัว",
-    description: "แสดงผลงานและข้อมูลติดต่อ",
-    imageUrl: "/images/portfolio.jpg",
-    tags: ["Next.js", "Tailwind", "Portfolio"],
+    title: '2',
+    description: '2',
+    imageUrl: '/images/portfolio.jpg',
+    tags: ['Next.js', 'Tailwind', 'Portfolio'],
+    link: '',
   },
   {
     id: 3,
-    title: "1",
-    description: "3",
-    imageUrl: "/images/booking.jpg",
-    tags: ["Node.js", "MongoDB", "Booking"],
+    title: '3',
+    description: '3',
+    imageUrl: '/images/booking.jpg',
+    tags: ['Node.js', 'MongoDB', 'Booking'],
+    link: '/#profile',
   },
 ];
 
 const CommandsProject = () => {
   const [projects] = useState<Project[]>(initialProjects);
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
   const uniqueTags = Array.from(
@@ -52,14 +56,14 @@ const CommandsProject = () => {
   });
 
   return (
-    <div className="max-w-5xl mx-auto p-6 ">
+    <div className="max-w-6xl mx-auto p-6">
       {/* 🔍 Search */}
       <input
         type="text"
         placeholder="ค้นหาโปรเจกต์..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="border p-2 w-full mb-4 rounded shadow-xl "
+        className="border p-2 w-full mb-4 rounded shadow-xl"
       />
 
       {/* 🏷️ Tag Filter */}
@@ -68,8 +72,8 @@ const CommandsProject = () => {
           onClick={() => setSelectedTag(null)}
           className={`px-3 py-1 rounded ${
             selectedTag === null
-              ? "bg-white text-black shadow-xl"
-              : "bg-gray-200 text-gray-800 shadow-l"
+              ? 'bg-white text-black shadow-xl'
+              : 'bg-gray-200 text-gray-800 shadow-sm'
           }`}
         >
           ทั้งหมด
@@ -80,8 +84,8 @@ const CommandsProject = () => {
             onClick={() => setSelectedTag(tag)}
             className={`px-3 py-1 rounded ${
               selectedTag === tag
-                ? "bg-white text-black shadow-xl"
-                : "bg-gray-200 text-gray-800 shadow-l"
+                ? 'bg-white text-black shadow-xl'
+                : 'bg-gray-200 text-gray-800 shadow-sm'
             }`}
           >
             {tag}
@@ -92,9 +96,10 @@ const CommandsProject = () => {
       {/* 📦 Project List */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredProjects.map((project) => (
-          <div
+          <Link
             key={project.id}
-            className="rounded-lg shadow-2xl overflow-hidden flex flex-col"
+            href={project.link} // ✅ ใช้ลิงก์ที่กำหนดเอง
+            className="rounded-lg shadow-2xl overflow-hidden flex flex-col transition-transform transform hover:scale-[1.02] hover:shadow-neutral-300 hover:bg-red-50 hover:text-cyan-900 cursor-pointer bg-white"
           >
             <img
               src={project.imageUrl}
@@ -115,7 +120,7 @@ const CommandsProject = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

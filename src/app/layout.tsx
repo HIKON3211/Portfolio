@@ -48,7 +48,7 @@ export default function RootLayout({
                 PROFILE
               </Link>
               <Link
-                href="/media"
+                href="/#about"
                 className="py-2 md:py-0 hover:underline"
               >
                 ACTIVITY

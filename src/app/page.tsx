@@ -194,6 +194,18 @@ export default function HeroSection() {
                     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
                   },
                   {
+                    name: "Basic Python",
+                    icon: "/picture/logo/logo_python.svg",
+                    color: "#3776AB",
+                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                  },
+                  {
+                    name: "Next.JS",
+                    icon: "/picture/logo/logo_nextjs.svg",
+                    color: "#000000",
+                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                  },
+                  {
                     name: "Vercel",
                     icon: "/picture/logo/logo_vercel.svg",
                     color: "#000000",
@@ -203,12 +215,12 @@ export default function HeroSection() {
                     name: "Github",
                     icon: "/picture/logo/logo_github.svg",
                     color: "#000000",
-                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                    link: "/#profile",
                   },
                   {
-                    name: "Next.JS",
-                    icon: "/picture/logo/logo_nextjs.svg",
-                    color: "#000000",
+                    name: "Github Desktop",
+                    icon: "/picture/logo/logo_github.svg",
+                    color: "#5d2781",
                     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
                   },
                   {
@@ -231,7 +243,7 @@ export default function HeroSection() {
                     target="_blank" // เปิดในแท็บใหม่
                     rel="noopener noreferrer" // เป็นการปฏิบัติที่ดีด้านความปลอดภัย
                     // ย้ายคลาสของ <li> เดิมมาที่ <a>
-                    className="flex items-center gap-4 p-4 rounded-lg bg-white hover:bg-red-50 hover:scale-[1.02] transition-all duration-300 cursor-pointer group shadow-sm"
+                    className="flex items-center gap-4 p-4 rounded-lg bg-white hover: hover:scale-[1.02] transition-all duration-300 cursor-pointer group shadow-sm"
                   >
                     {/* ❗️ ลบ key={index} ออกจาก <li> เพราะย้ายไปที่ <a> แล้ว ❗️ */}
                     {/* ⚠️ ลบ className ของ <li> เดิมออก แล้วย้ายไปที่ <a> ด้านบน ⚠️ */}
