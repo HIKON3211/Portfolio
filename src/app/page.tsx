@@ -6,8 +6,9 @@ import { useEffect, useState } from "react";
 
 const backgroundImages = [
   "/picture/project_sec/project_2/project_ (8).jpg",
-  "/picture/project_sec/project_2/project_ (8).jpg",
-  "/picture/project_sec/project_2/project_ (8).jpg",
+  "/picture/project_sec/project_1/project_ (5).jpg",
+  "/picture/project_sec/project_3/project_ (3).jpg",
+  "/picture/project_sec/project_4/project_ (2).jpg"
   
 ];
 //hello
@@ -17,7 +18,7 @@ export default function HeroSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % backgroundImages.length);
-    }, 5000); // เปลี่ยนทุก 5 วินาที
+    }, 3000); // เปลี่ยนทุก 5 วินาที
 
     return () => clearInterval(interval);
   }, []);
