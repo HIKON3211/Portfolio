@@ -63,7 +63,7 @@ export default function HeroSection() {
 
           {/* ข้อมูลส่วนตัว */}
           <div className=" flex flex-col md:flex-row items-center gap-8 mb-12">
-            <div className="w-70 h-70 rounded-xl overflow-hidden shadow-lg bg-[#33a8de] ">
+            <div className="w-70 h-70 rounded-xl overflow-hidden shadow-xl bg-[#33a8de] ">
               <img
                 src="/picture/profile/profile_1.jpg"
                 width={148}
@@ -213,7 +213,7 @@ export default function HeroSection() {
                   },
                   {
                     name: "Github",
-                    icon: "/picture/logo/logo_github",
+                    icon: "/picture/logo/logo_github.svg",
                     color: "#000000",
                     link: "https://github.com/",
                   },
