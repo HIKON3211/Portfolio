@@ -16,7 +16,7 @@ const initialProjects: Project[] = [
     id: 1,
     title: 'การแข่งขัน Coding War',
     description: 'แอปสำหรับจัดการเมนูและออเดอร์ฟกฟหกฟหกฟหกฟหกฟหกฟหก',
-    imageUrl: '/picture/project/project_1/project_2.jpg',
+    imageUrl: '/picture/project_sec/project_2/project_ (8).jpg',
     tags: ['React', 'POS'],
     link: '/project_sec/project_1', // ✅ ลิงก์ที่กำหนดเอง
   }

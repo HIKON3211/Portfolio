@@ -5,9 +5,9 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const backgroundImages = [
-  "/public/picture/project_sec/project_2/project_ (8).jpg",
-  "/public/picture/project_sec/project_2/project_ (8).jpg",
-  "/public/picture/project_sec/project_2/project_ (8).jpg",
+  "/picture/project_sec/project_2/project_ (8).jpg",
+  "/picture/project_sec/project_2/project_ (8).jpg",
+  "/picture/project_sec/project_2/project_ (8).jpg",
   
 ];
 //hello
