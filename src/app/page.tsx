@@ -5,9 +5,10 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const backgroundImages = [
-  "/picture/project/project_2/project_1.jpg",
-  "/picture/project/project_1/project_2.jpg",
-  "/picture/project/project_3/project_1.jpg",
+  "/public/picture/project_sec/project_2/project_ (8).jpg",
+  "/public/picture/project_sec/project_2/project_ (8).jpg",
+  "/public/picture/project_sec/project_2/project_ (8).jpg",
+  
 ];
 //hello
 export default function HeroSection() {
