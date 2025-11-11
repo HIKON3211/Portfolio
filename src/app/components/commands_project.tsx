@@ -16,9 +16,9 @@ const initialProjects: Project[] = [
     id: 1,
     title: 'การแข่งขัน Coding War',
     description: 'แอปสำหรับจัดการเมนูและออเดอร์ฟกฟหกฟหกฟหกฟหกฟหกฟหก',
-    imageUrl: '/picture/project_sec/project_2/project_ (8).jpg',
-    tags: ['React', 'POS'],
-    link: '/project_sec/project_1', // ✅ ลิงก์ที่กำหนดเอง
+    imageUrl: '/picture/project_sec/project_1/project_ (5).jpg',
+    tags: ['Depa', 'Ciracore','ระดับประเทศ'],
+    link: '/project_sec/project_(1)', // ✅ ลิงก์ที่กำหนดเอง
   }
 ]
 const CommandsProject = () => {

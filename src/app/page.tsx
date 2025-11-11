@@ -193,7 +193,7 @@ export default function HeroSection() {
                     name: "Basic Tailwind CSS",
                     icon: "/picture/logo/logo_tailwind_css.svg",
                     color: "#06B6D4",
-                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                    link: "https://tailwindcss.com/",
                   },
                   {
                     name: "Basic Python",
@@ -205,13 +205,13 @@ export default function HeroSection() {
                     name: "Next.JS",
                     icon: "/picture/logo/logo_nextjs.svg",
                     color: "#000000",
-                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                    link: "https://nextjs.org/",
                   },
                   {
                     name: "Vercel",
                     icon: "/picture/logo/logo_vercel.svg",
                     color: "#000000",
-                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                    link: "https://vercel.com/",
                   },
                   {
                     name: "Github",
@@ -229,13 +229,13 @@ export default function HeroSection() {
                     name: "Arduino",
                     icon: "/picture/logo/logo_arduino.svg",
                     color: "#00878F",
-                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                    link: "https://www.arduino.cc/en/software/",
                   },
                   {
                     name: "Visual Studio Code",
                     icon: "/picture/logo/logo_vscode.svg",
                     color: "#007ACC",
-                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                    link: "https://code.visualstudio.com/",
                   },
                 ].map((skill, index) => (
                   // 🌟 โค้ดที่เปลี่ยนไป: ใช้แท็ก <a> ห่อหุ้ม <li> ทั้งหมด 🌟
