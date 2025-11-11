@@ -79,7 +79,7 @@ export default function ActivityDetail() {
 
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project/project_1/project_2.jpg"
+                src="/picture/project/project_1/project_1.jpg"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}

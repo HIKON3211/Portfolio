@@ -197,7 +197,7 @@ export default function HeroSection() {
                     name: "Basic Python",
                     icon: "/picture/logo/logo_python.svg",
                     color: "#3776AB",
-                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                    link: "https://www.w3schools.com/python/",
                   },
                   {
                     name: "Next.JS",
@@ -213,15 +213,15 @@ export default function HeroSection() {
                   },
                   {
                     name: "Github",
-                    icon: "/picture/logo/logo_github.svg",
+                    icon: "/picture/logo/logo_github",
                     color: "#000000",
-                    link: "/#profile",
+                    link: "https://github.com/",
                   },
                   {
                     name: "Github Desktop",
                     icon: "/picture/logo/logo_github.svg",
                     color: "#5d2781",
-                    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                    link: "https://github.com/apps/desktop",
                   },
                   {
                     name: "Arduino",
