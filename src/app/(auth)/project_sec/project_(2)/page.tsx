@@ -1,6 +1,6 @@
-'use client';
-import Image from 'next/image';
-import { useRouter } from 'next/navigation';
+"use client";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function ActivityDetail() {
   const router = useRouter();
@@ -18,12 +18,12 @@ export default function ActivityDetail() {
       {/* {รูปอันเบิ้มๆข้างบน} */}
       <section
         id="project_1"
-        className="relative h-[60vh] flex flex-col items-center justify-center text-center"
+        className="relative h-[80vh] flex flex-col items-center justify-center text-center"
       >
         {/* พื้นหลังภาพแบบละลาย */}
         <div className="absolute inset-0">
           <Image
-            src="/picture/project/project_1/project_2.jpg"
+            src="/picture/project_sec/project_2/project_ (8).jpg"
             alt="Background"
             fill
             className="object-cover object-[center_20%] opacity-75"
@@ -45,7 +45,8 @@ export default function ActivityDetail() {
             Coding War "
           </h1>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            ตัวผมได้รับสิทธิมาเเข่งโครงงานนี้จากการผ่านเข้ารอบจาก Coding Bootcamp
+            ตัวผมได้รับสิทธิมาเเข่งโครงงานนี้จากการผ่านเข้ารอบจาก Coding
+            Bootcamp
             โดยกิจกรรมนี้จะให้นำเสนอโครงงานเกี่ยวกับชีวิตประจำวันโดยตั้งบูธ
             เเละพรีเซนต์ให้กับทางคณะกรรมการเเละบุคคลการที่ได้เข้ามารับชมที่ MCC
             Hall เดอะมอลล์ ไลฟ์สโตร์ บางกะปิ โดยจะมีการเก็บคะเเนนอยู่ตลอดทั้งงาน
@@ -53,8 +54,8 @@ export default function ActivityDetail() {
           </p>
           <p className="text-gray-600 mb-6 leading-relaxed">
             สิ่งที่ได้มาจากกิจกรรมนี้ :
-            ในช่วงก่อนไปงานได้ทำโครงงานเเละเรียนรู้เรื่องการใช้โปรเเกรม Cira-Core
-            เพื่อใช้ Ai ในการ Detect ใบหน้า เเละ Arduino
+            ในช่วงก่อนไปงานได้ทำโครงงานเเละเรียนรู้เรื่องการใช้โปรเเกรม
+            Cira-Core เพื่อใช้ Ai ในการ Detect ใบหน้า เเละ Arduino
             เพื่อสั่งการไปยังอุปกรณ์ต่างๆ เเละในวันที่ไปเเข่งขันโครงงาน
             ก็ได้รับประสบการณ์ในการพูดเเละพรีเซนต์
             เเละยังได้รู้ทำความรู้จักกับนักเรียนเเละคนเเข่งขันจากบูธอื่นๆอีกมากมาย
@@ -69,7 +70,7 @@ export default function ActivityDetail() {
             </h2>
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project/project_1/project_2.jpg"
+                src="/picture/project_sec/project_2/project_ (1).jpg"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}
@@ -79,7 +80,35 @@ export default function ActivityDetail() {
 
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project/project_1/project_1.jpg"
+                src="/picture/project_sec/project_2/project_ (2).jpg"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_2/project_ (3).jpg"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_2/project_ (5).jpg"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_2/project_ (8).jpg"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}
@@ -93,9 +122,18 @@ export default function ActivityDetail() {
             <h2 className="text-xl font-semibold text-gray-700 mb-2">
               เกียรติบัตร
             </h2>
+            <div className="rounded-lg overflow-hidden shadow-md mb-10">
+              <Image
+                src="/picture/project_sec/project_2/project_ (7).jpg"
+                alt="เกียรติบัตร"
+                width={800}
+                height={500}
+                className="object-cover w-full h-auto"
+              />
+            </div>
             <div className="rounded-lg overflow-hidden shadow-md">
               <Image
-                src="/picture/project/project_1/project_2.jpg"
+                src="/picture/project_sec/project_2/project_ (6).jpg"
                 alt="เกียรติบัตร"
                 width={800}
                 height={500}

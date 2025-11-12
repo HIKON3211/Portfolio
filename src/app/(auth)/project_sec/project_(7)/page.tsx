@@ -18,12 +18,12 @@ export default function ActivityDetail() {
       {/* {รูปอันเบิ้มๆข้างบน} */}
       <section
         id="project_1"
-        className="relative h-[60vh] flex flex-col items-center justify-center text-center"
+        className="relative h-[80vh] flex flex-col items-center justify-center text-center"
       >
         {/* พื้นหลังภาพแบบละลาย */}
         <div className="absolute inset-0">
           <Image
-            src="/picture/project/project_1/project_2.jpg"
+            src="/picture/project_sec/project_7/project_ (1).jpg"
             alt="Background"
             fill
             className="object-cover object-[center_20%] opacity-75"
@@ -69,7 +69,7 @@ export default function ActivityDetail() {
             </h2>
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project/project_1/project_2.jpg"
+                src="/picture/project_sec/project_5/project_ (1).jpg"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}
@@ -79,13 +79,53 @@ export default function ActivityDetail() {
 
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project/project_1/project_1.jpg"
+                src="/picture/project_sec/project_7/project_ (2).jpg"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}
                 className="object-cover w-full h-auto"
               />
             </div>
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_7/project_ (3).jpg"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_7/project_ (6).jpg"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_7/project_ (4).jpg"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_7/project_ (5).jpg"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+
           </div>
 
           {/* รูปภาพเกียรติบัตร */}
@@ -93,12 +133,22 @@ export default function ActivityDetail() {
             <h2 className="text-xl font-semibold text-gray-700 mb-2">
               เกียรติบัตร
             </h2>
-            <div className="rounded-lg overflow-hidden shadow-md">
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project/project_1/project_2.jpg"
-                alt="เกียรติบัตร"
+                src="/picture/project_sec/project_7/project_ (7).jpg"
+                alt="ภาพกิจกรรม"
                 width={800}
-                height={500}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_7/project_ (8).jpg"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
                 className="object-cover w-full h-auto"
               />
             </div>
