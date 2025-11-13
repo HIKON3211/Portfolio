@@ -23,7 +23,7 @@ export default function ActivityDetail() {
         {/* พื้นหลังภาพแบบละลาย */}
         <div className="absolute inset-0">
           <Image
-            src="/picture/project_sec/project_16/project_.png"
+            src="/picture/project_sec/project_17/project_.jpg"
             alt="Background"
             fill
             className="object-cover object-[center_20%] opacity-75"
@@ -65,7 +65,7 @@ export default function ActivityDetail() {
 
           {/* รูปภาพกิจกรรม */}
           <div className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-700 mb-2">
+            {/* <h2 className="text-xl font-semibold text-gray-700 mb-2">
               ภาพกิจกรรม
             </h2>
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
@@ -76,7 +76,7 @@ export default function ActivityDetail() {
                 height={400}
                 className="object-cover w-full h-auto"
               />
-            </div>
+            </div> */}
            
           </div>
 
@@ -87,7 +87,7 @@ export default function ActivityDetail() {
             </h2>
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project_sec/project_16/project_.png"
+                src="/picture/project_sec/project_17/project_.jpg"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}

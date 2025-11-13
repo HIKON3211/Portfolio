@@ -23,7 +23,7 @@ export default function ActivityDetail() {
         {/* พื้นหลังภาพแบบละลาย */}
         <div className="absolute inset-0">
           <Image
-            src="/picture/project_sec/project_16/project_.png"
+            src="/picture/project_sec/project_20/project_ (2).png"
             alt="Background"
             fill
             className="object-cover object-[center_20%] opacity-75"
@@ -70,30 +70,43 @@ export default function ActivityDetail() {
             </h2>
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project_sec/project_16/project_.png"
+                src="/picture/project_sec/project_20/project_ (1).png"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}
                 className="object-cover w-full h-auto"
               />
             </div>
+
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_20/project_ (2).png"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+
            
           </div>
 
           {/* รูปภาพเกียรติบัตร */}
           <div>
-            <h2 className="text-xl font-semibold text-gray-700 mb-2">
+            {/* <h2 className="text-xl font-semibold text-gray-700 mb-2">
               เกียรติบัตร
             </h2>
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project_sec/project_16/project_.png"
+                src="/picture/project_sec/project_18/project_ (3).jpg"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}
                 className="object-cover w-full h-auto"
               />
-            </div>
+            </div> */}
+
+            
           </div>
         </div>
       </section>

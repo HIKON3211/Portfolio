@@ -23,7 +23,7 @@ export default function ActivityDetail() {
         {/* พื้นหลังภาพแบบละลาย */}
         <div className="absolute inset-0">
           <Image
-            src="/picture/project_sec/project_16/project_.png"
+            src="/picture/project_sec/project_23/project_ (1).png"
             alt="Background"
             fill
             className="object-cover object-[center_20%] opacity-75"
@@ -70,7 +70,17 @@ export default function ActivityDetail() {
             </h2>
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project_sec/project_16/project_.png"
+                src="/picture/project_sec/project_23/project_ (1).png"
+                alt="ภาพกิจกรรม"
+                width={800}
+                height={400}
+                className="object-cover w-full h-auto"
+              />
+            </div>
+
+            <div className="rounded-lg overflow-hidden shadow-md mb-8">
+              <Image
+                src="/picture/project_sec/project_23/project_ (2).png"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}
@@ -87,13 +97,15 @@ export default function ActivityDetail() {
             </h2>
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project_sec/project_16/project_.png"
+                src="/picture/project_sec/project_23/project_ (3).png"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}
                 className="object-cover w-full h-auto"
               />
             </div>
+
+            
           </div>
         </div>
       </section>
