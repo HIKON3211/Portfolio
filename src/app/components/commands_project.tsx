@@ -22,23 +22,23 @@ const initialProjects: Project[] = [
   },
   {
     id: 2,
-    title: 'การแข่งขัน Coding War',
-    description: 'แอปสำหรับจัดการเมนูและออเดอร์ฟกฟหกฟหกฟหกฟหกฟหกฟหก',
+    title: 'การแข่งขัน Coding Bootcamp',
+    description: 'เข้าค่าย',
     imageUrl: '/picture/project_sec/project_2/project_ (8).jpg',
     tags: ['Depa'],
     link: '/project_sec/project_(2)'  
   },
   {
     id: 3,
-    title: 'การแข่งขัน Coding War',
-    description: 'แอปสำหรับจัดการเมนูและออเดอร์ฟกฟหกฟหกฟหกฟหกฟหกฟหก',
+    title: 'PSRU Cyber Hackathon#2',
+    description: 'PSRU Cyber Hackathon#2',
     imageUrl: '/picture/project_sec/project_3/project_ (4).jpg',
     tags: ['Depa'],
     link: '/project_sec/project_(3)'  
   },
   {
     id: 4,
-    title: 'การแข่งขัน Coding War',
+    title: 'ชนะเลิศเหรียญทองระดับเขต ศิลปะหัตกรรม',
     description: 'แอปสำหรับจัดการเมนูและออเดอร์ฟกฟหกฟหกฟหกฟหกฟหกฟหก',
     imageUrl: '/picture/project_sec/project_4/project_ (2).jpg',
     tags: ['Depa'],
