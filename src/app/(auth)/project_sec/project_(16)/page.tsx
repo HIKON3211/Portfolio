@@ -31,7 +31,7 @@ export default function ActivityDetail() {
         </div>
         <div className="mt-10 z-10 px-4 text-center">
           <h1 className="text-6xl sm:text-4xl md:text-5xl lg:text-8xl font-bold text-white text-shadow-strong wrap-break-word">
-            CODING WAR
+           แข่งขันทักษะคณิตศาตร์
           </h1>
         </div>
       </section>
@@ -41,27 +41,14 @@ export default function ActivityDetail() {
         <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
           {/* หัวข้อกิจกรรม */}
           <h1 className="text-3xl font-bold text-gray-800 mb-4">
-            ได้เข้าร่วมการเเข่งขันรอบ 100 ทีมสุดท้าย ระดับประเทศ กิจกรรม "
-            Coding War "
+            ได้เข้าร่วมเป็นผู้ช่วยกรรมการใน
+กิจกรรมการแข่งขันทักษะคณิตศาตร์
           </h1>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            ตัวผมได้รับสิทธิมาเเข่งโครงงานนี้จากการผ่านเข้ารอบจาก Coding
-            Bootcamp
-            โดยกิจกรรมนี้จะให้นำเสนอโครงงานเกี่ยวกับชีวิตประจำวันโดยตั้งบูธ
-            เเละพรีเซนต์ให้กับทางคณะกรรมการเเละบุคคลการที่ได้เข้ามารับชมที่ MCC
-            Hall เดอะมอลล์ ไลฟ์สโตร์ บางกะปิ โดยจะมีการเก็บคะเเนนอยู่ตลอดทั้งงาน
-            เป็นเวลา 3 วัน
+            ได้อาสาเป็นผู้ช่วยกรรมการในการแข่งขัน ซูโดกุ โดยได้ช่วยอำนวยความสะดวกให้แก่ผู้เข้าแข่งขันและทางคณะกรรมการ โดยจะมีทั้งการแจกและเก็บกระดาษข้อสอบจำนวนมากและการตรวจคำตอบ
+ จึงได้มีการฝึกการแบ่งหน้าที่และกระจายงาน
           </p>
-          <p className="text-gray-600 mb-6 leading-relaxed">
-            สิ่งที่ได้มาจากกิจกรรมนี้ :
-            ในช่วงก่อนไปงานได้ทำโครงงานเเละเรียนรู้เรื่องการใช้โปรเเกรม
-            Cira-Core เพื่อใช้ Ai ในการ Detect ใบหน้า เเละ Arduino
-            เพื่อสั่งการไปยังอุปกรณ์ต่างๆ เเละในวันที่ไปเเข่งขันโครงงาน
-            ก็ได้รับประสบการณ์ในการพูดเเละพรีเซนต์
-            เเละยังได้รู้ทำความรู้จักกับนักเรียนเเละคนเเข่งขันจากบูธอื่นๆอีกมากมาย
-            ทำให้ผมได้พัฒนาความสามารถในการ
-            ทำความรู้จักเเละเข้ากับคนที่ไม่รู้จักได้ดีมากๆ
-          </p>
+          
 
           {/* รูปภาพกิจกรรม */}
           <div className="mb-8">
@@ -87,7 +74,7 @@ export default function ActivityDetail() {
             </h2>
             <div className="rounded-lg overflow-hidden shadow-md mb-8">
               <Image
-                src="/picture/project_sec/project_16/project_.png"
+                src="/picture/project_sec/project_16/project_.jpg"
                 alt="ภาพกิจกรรม"
                 width={800}
                 height={400}

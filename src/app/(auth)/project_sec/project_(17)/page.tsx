@@ -31,7 +31,7 @@ export default function ActivityDetail() {
         </div>
         <div className="mt-10 z-10 px-4 text-center">
           <h1 className="text-6xl sm:text-4xl md:text-5xl lg:text-8xl font-bold text-white text-shadow-strong wrap-break-word">
-            CODING WAR
+            โครงงานเศรษฐกิจพอเพียง
           </h1>
         </div>
       </section>
@@ -41,8 +41,7 @@ export default function ActivityDetail() {
         <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
           {/* หัวข้อกิจกรรม */}
           <h1 className="text-3xl font-bold text-gray-800 mb-4">
-            ได้เข้าร่วมการเเข่งขันรอบ 100 ทีมสุดท้าย ระดับประเทศ กิจกรรม "
-            Coding War "
+            ได้รับรางวัลเหรียญทอง รองชนะเลิศอันดับ 1 
           </h1>
           <p className="text-gray-600 mb-6 leading-relaxed">
             ตัวผมได้รับสิทธิมาเเข่งโครงงานนี้จากการผ่านเข้ารอบจาก Coding
