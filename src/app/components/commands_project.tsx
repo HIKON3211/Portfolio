@@ -17,7 +17,7 @@ const initialProjects: Project[] = [
     title: 'การแข่งขัน Coding War',
     description: 'ได้เข้าร่วมการเเข่งขันรอบ 100 ทีมสุดท้าย ระดับประเทศ กิจกรรม " Coding War "',
     imageUrl: '/picture/project_sec/project_1/project_ (5).jpg',
-    tags: ['Depa', 'Ciracore','ระดับประเทศ'],
+    tags: ['Depa', 'Ciracore','ระดับประเทศ','เกียรติบัตร','Programming','โครงงาน'],
     link: '/project_sec/project_(1)', // ✅ ลิงก์ที่กำหนดเอง
   },
   {
@@ -25,7 +25,7 @@ const initialProjects: Project[] = [
     title: 'การแข่งขัน Coding Bootcamp',
     description: 'ได้เข้าร่วมกิจกรรม Coding Bootcamp อบรมเเละได้เเข่งขันได้ชนะเลิศอันดับ 2 ของระดับภาคเหนือตอนล่าง',
     imageUrl: '/picture/project_sec/project_2/project_ (8).jpg',
-    tags: ['Depa'],
+    tags: ['Depa','ระดับภาค','โครงงาน','เกียรติบัตร','Programming','Aithaigen','อบรม','แข่งขัน'],
     link: '/project_sec/project_(2)'  
   },
   {
@@ -33,7 +33,7 @@ const initialProjects: Project[] = [
     title: 'PSRU Cyber Hackathon#2',
     description: 'ได้เข้าร่วมกิจกรรม อบรมเเละเเข่งขัน PSRU CYBER HACKATHON #2 ',
     imageUrl: '/picture/project_sec/project_3/project_ (4).jpg',
-    tags: ['Depa'],
+    tags: ['Hackathon','เกียรติบัตร','Programming','อบรม','แข่งขัน'],
     link: '/project_sec/project_(3)'  
   },
   {
@@ -41,7 +41,7 @@ const initialProjects: Project[] = [
     title: 'ชนะเลิศเหรียญทองระดับเขต ศิลปะหัตกรรม',
     description: 'ได้รับรางวัลเหรียญทองในการเเข่งขันศิลปหัตกรรม หุ่นยนต์ระดับสูง ในระดับ เขต',
     imageUrl: '/picture/project_sec/project_4/project_ (2).jpg',
-    tags: ['Depa'],
+    tags: ['แข่งขัน','ระดับเขต','เกียรติบัตร','Programming'],
     link: '/project_sec/project_(4)'  
   },
   {
@@ -49,7 +49,7 @@ const initialProjects: Project[] = [
     title: 'KU Python Competition',
     description: 'ได้ผ่านเข้ารอบ 24 ทีมสุดท้าย ในการเเข่งขัน Python Competition  /< it',
     imageUrl: '/picture/project_sec/project_5/project_ (2).jpg',
-    tags: ['Depa'],
+    tags: ['KU','แข่งขัน','Programming','เกียรติบัตร'],
     link: '/project_sec/project_(5)'  
   },
   {
@@ -57,7 +57,7 @@ const initialProjects: Project[] = [
     title: 'Coding Inspire Swift',
     description: 'ได้เข้าร่วมอบรมเเละเเข่งขันในกิจกรรม Coding Inspire Swift Coding Club TH',
     imageUrl: '/picture/project_sec/project_6/project_ (2).jpg',
-    tags: ['Depa'],
+    tags: ['Swift','Programming','อบรม','แข่งขัน','รางวัลชมเชย'],
     link: '/project_sec/project_(6)'  
   },
   {
@@ -65,7 +65,7 @@ const initialProjects: Project[] = [
     title: 'อบรม Mikrotik',
     description: 'ได้ผ่านการอบรมหลักสูตร Mikrotik Certified Security Engineer',
     imageUrl: '/picture/project_sec/project_7/project_ (1).jpg',
-    tags: ['Depa'],
+    tags: ['อบรม','โรงเรียน','เกียรติบัตร','Programming'],
     link: '/project_sec/project_(7)'  
   },
   {
@@ -73,7 +73,7 @@ const initialProjects: Project[] = [
     title: 'Generative Ai coding ',
     description: 'ได้รับรางวัญ ชมเชย ในการอบรมเเละเเข่งขัน Generative Ai Coding ',
     imageUrl: '/picture/project_sec/project_8/project_ (3).jpg',
-    tags: ['Depa'],
+    tags: ['อบรม','แข่งขัน','Programming','เกียรติบัตร'],
     link: '/project_sec/project_(8)'  
   },
   {
@@ -81,7 +81,7 @@ const initialProjects: Project[] = [
     title: 'STEM PROJECT',
     description: 'ได้เข้าร่วมอบรมเเละเเข่งขันในกิจกรรม STEM project ในโรงเรียน',
     imageUrl: '/picture/project_sec/project_9/project_ (1).png',
-    tags: ['Depa'],
+    tags: ['โครงงาน','โรงเรียน','Programming','แข่งขัน'],
     link: '/project_sec/project_(9)'  
   },
   {
@@ -89,7 +89,7 @@ const initialProjects: Project[] = [
     title: 'การแข่งขัน อบรม Cira Core',
     description: 'ได้เข้าร่วมการอบรมการฝึกสอนการใช้งาน Cira Core ',
     imageUrl: '/picture/project_sec/project_10/project_ (5).jpg',
-    tags: ['Depa'],
+    tags: ['Ciracore','อบรม','Programming','โรงเรียน'],
     link: '/project_sec/project_(10)'  
   },
   {
@@ -97,7 +97,7 @@ const initialProjects: Project[] = [
     title: 'คณะกรรมการสภานักเรียน',
     description: 'ได้รับเลือกเป็นคณะกรรมการสภานักเรียน ฝ่ายสารวัตรนักเรียนในระดับชั้นมัธยมศึกษาปีที่ 5',
     imageUrl: '/picture/project_sec/project_11/project_ (2).png',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','เกียรติบัตร','จิตอาสา'],
     link: '/project_sec/project_(11)'  
   },
   {
@@ -105,7 +105,7 @@ const initialProjects: Project[] = [
     title: 'แข่งขันหนังสั้นพราวไทย',
     description: 'ได้รับรางวัลชมเชย การประกวดการจัดทำภาพยนตร์สั้น “พราวไทย ',
     imageUrl: '/picture/project_sec/project_12/project_ (2).png',
-    tags: ['Depa'],
+    tags: ['รางวัลชมเชย','แข่งขัน','ระดับประเทศ','สื่อวิดีโอ'],
     link: '/project_sec/project_(12)'  
   },
   {
@@ -113,7 +113,7 @@ const initialProjects: Project[] = [
     title: 'โปรโมทห้องเรียน Gifted',
     description: 'ได้ร่วมทำคลิปวิดิโอโปรโมทห้องเรียน Gifted ของโรงเรียนจ่านกร้อง',
     imageUrl: '/picture/project_sec/project_13/project_ (2).png',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','สื่อวิดีโอ'],
     link: '/project_sec/project_(13)'  
   },
   {
@@ -121,7 +121,7 @@ const initialProjects: Project[] = [
     title: 'โครงการ THAI DIGITAL CONTENT GO GLOBEL',
     description: 'กิจกรรมพัฒนายกระดับทักษะด้านเกมโครงการ THAI DIGITAL CONTENT GO GLOBEL',
     imageUrl: '/picture/project_sec/project_14/project_ (2).jpg',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','Depa','อบรม'],
     link: '/project_sec/project_(14)'  
   },
   {
@@ -129,7 +129,7 @@ const initialProjects: Project[] = [
     title: ' ศธ.360 องศา ได้มาเยือนโรงเรียน',
     description: 'ได้มีสิทธิเป็นตัวแทนถูกสัมภาษณ์เกี่ยวกับกิจกรรมการแข่งขันโครงงานต่าง ๆ',
     imageUrl: '/picture/project_sec/project_15/project_ (1).png',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','สื่อวิดีโอ'],
     link: '/project_sec/project_(15)'  
   },
   {
@@ -137,7 +137,7 @@ const initialProjects: Project[] = [
     title: 'กิจกรรมการแข่งขันทักษะคณิตศาตร์',
     description: 'ได้เข้าร่วมเป็นผู้ช่วยกรรมการในกิจกรรมการแข่งขันทักษะคณิตศาตร์',
     imageUrl: '/picture/project_sec/project_16/project_.png',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','เกียรติบัตร','จิตอาสา'],
     link: '/project_sec/project_(16)'  
   },
   {
@@ -145,7 +145,7 @@ const initialProjects: Project[] = [
     title: 'การประกวดโครงงานเศรษฐกิจพอเพียง ในระดับโรงเรียน',
     description: 'ได้รับรางวัลเหรียญทอง รองชนะเลิศอันดับ 1 การประกวดโครงงานเศรษฐกิจพอเพียง ในระดับโรงเรียน',
     imageUrl: '/picture/project_sec/project_17/project_.jpg',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','เกียรติบัตร','แข่งขัน','อบรม','โครงงาน'],
     link: '/project_sec/project_(17)'  
   },
   {
@@ -153,7 +153,7 @@ const initialProjects: Project[] = [
     title: '3DsMax',
     description: 'ได้ฝึกและเรียนรู้พื้นฐานการใช้งานโปรแกรม 3DsMax ',
     imageUrl: '/picture/project_sec/project_18/project_ (3).jpg',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','สื่อวิดีโอ'],
     link: '/project_sec/project_(18)'  
   },
   {
@@ -161,7 +161,7 @@ const initialProjects: Project[] = [
     title: 'เข้าร่วมการสวนสนาม',
     description: 'ได้เข้าร่วมพิธีกระทำสัตย์ปฎิญาณตนและสวนสนามนักศึกษาวิชาทหาร ชั้นปีที่ 2',
     imageUrl: '/picture/project_sec/project_19/project_ (2).png',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','จิตอาสา'],
     link: '/project_sec/project_(19)'  
   },
   {
@@ -169,7 +169,7 @@ const initialProjects: Project[] = [
     title: 'จัดทำหนังสั้นในวิชา',
     description: '',
     imageUrl: '/picture/project_sec/project_20/project_ (1).png',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','สื่อวิดีโอ',],
     link: '/project_sec/project_(20)'  
   },
   {
@@ -177,7 +177,7 @@ const initialProjects: Project[] = [
     title: 'ทำ Short Video',
     description: '',
     imageUrl: '/picture/project_sec/project_21/project_ (1).png',
-    tags: ['Depa'],
+    tags: ['สื่อวิดีโอ','โรงเรียน'],
     link: '/project_sec/project_(21)'  
   },
   {
@@ -185,7 +185,7 @@ const initialProjects: Project[] = [
     title: 'ฝึกทำอนิเมชั่น',
     description: '',
     imageUrl: '/picture/project_sec/project_22/project_ (1).png',
-    tags: ['Depa'],
+    tags: ['สื่อวิดีโอ','โรงเรียน'],
     link: '/project_sec/project_(22)'  
   },
   {
@@ -193,7 +193,7 @@ const initialProjects: Project[] = [
     title: 'ทำ MV cover เพลง',
     description: '',
     imageUrl: '/picture/project_sec/project_23/project_ (1).png',
-    tags: ['Depa'],
+    tags: ['สื่อวิดีโอ','โรงเรียน'],
     link: '/project_sec/project_(23)'  
   },
   {
@@ -201,7 +201,7 @@ const initialProjects: Project[] = [
     title: 'กิจกรรมงานวันกีฬาสี',
     description: 'กิจกรรมงานวันกีฬาสีได้รับหน้าที่เป็นพี่สีคุมกีฬาและเเบล็คสเตจของเเสตนเชียร์',
     imageUrl: '/picture/project_sec/project_24/project_.jpg',
-    tags: ['Depa'],
+    tags: ['โรงเรียน','จิตอาสา','แข่งขัน'],
     link: '/project_sec/project_(24)'  
   },
   

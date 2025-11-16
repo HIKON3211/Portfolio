@@ -8,7 +8,8 @@ const backgroundImages = [
   "/picture/project_sec/project_2/project_ (8).jpg",
   "/picture/project_sec/project_1/project_ (5).jpg",
   "/picture/project_sec/project_3/project_ (3).jpg",
-  "/picture/project_sec/project_4/project_ (2).jpg"
+  "/picture/project_sec/project_4/project_ (2).jpg",
+  "/picture/project_sec/project_5/project_ (2).jpg"
   
 ];
 //hello
