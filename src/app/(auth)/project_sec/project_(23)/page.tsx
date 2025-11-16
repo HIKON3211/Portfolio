@@ -44,9 +44,24 @@ export default function ActivityDetail() {
             ได้ทำ MV cover เพลง มองได้แต่อย่าชอบ
           </h1>
           <p className="text-gray-600 mb-6 leading-relaxed">
-          ได้เป็นผู้กำกับตัวของคลิปวิดีโอและเป็นคนตัดต่อทั้งหมด
+            ได้เป็นผู้กำกับตัวของคลิปวิดีโอและเป็นคนตัดต่อทั้งหมด
           </p>
-
+          {/* วิดีโอกิจกรรม */}
+          <div className="mt-12">
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">
+              🎥 วิดีโอกิจกรรม
+            </h2>
+            <div className="rounded-lg overflow-hidden shadow-md w-full aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/TNkRwPx1kw8" // ใช้ embed link
+                title="วิดีโอกิจกรรม"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+          </div>
           {/* รูปภาพกิจกรรม */}
           <div className="mb-8">
             <h2 className="text-xl font-semibold text-gray-700 mb-2">
@@ -71,7 +86,6 @@ export default function ActivityDetail() {
                 className="object-cover w-full h-auto"
               />
             </div>
-           
           </div>
 
           {/* รูปภาพเกียรติบัตร */}
@@ -88,8 +102,6 @@ export default function ActivityDetail() {
                 className="object-cover w-full h-auto"
               />
             </div>
-
-            
           </div>
         </div>
       </section>
